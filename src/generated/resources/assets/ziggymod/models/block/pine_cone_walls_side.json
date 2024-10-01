@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "ziggymod:block/pine_cone_plank"
+  }
+}

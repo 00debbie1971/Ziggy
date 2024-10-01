@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id": "ziggymod:tree_bark"
+        },
+        "title": {
+            "text": "Bark Collector"
+        },
+        "description": {
+            "text": "Obtain a piece of Tree Bark"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/moss_block.png"
+    },
+    "criteria": {
+        "get_tree_bark": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["ziggymod:tree_bark"]
+                    }
+                ]
+            }
+
+        }
+    },
+    "rewards": {
+        "loot": [
+            "ziggymod:advancements/root_adv"
+        ],
+        "experience": 100
+    },
+    "requirements": [
+      ["get_tree_bark"]
+    ] 
+}

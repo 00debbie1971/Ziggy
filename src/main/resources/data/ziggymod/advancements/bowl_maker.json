@@ -1,0 +1,40 @@
+{
+    "parent": "ziggymod:root",
+    "display": {
+      "icon": {
+        "id": "ziggymod:tree_bark_bowl"
+      },
+      "title": {
+        "text": "Bowl Maker"
+      },
+      "description": {
+        "text": "Craft a bowl using tree bark."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "craft_tree_bark_bowl": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["ziggymod:tree_bark_bowl"]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 200,
+      "loot": [
+          "ziggymod:advancements/bowl_maker_adv"
+      ]
+    },
+    "requirements": [
+      ["craft_tree_bark_bowl"]
+    ]
+  }
+  

@@ -1,0 +1,27 @@
+[30Sep2024 20:25:45.674] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 16, --assetsDir, C:\Users\Debbie\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, ziggymod, --all, --output, C:\Users\Debbie\.vscode\projectDirectory\ziggy\ziggy\src\generated\resources, --existing, C:\Users\Debbie\.vscode\projectDirectory\ziggy\ziggy\src\main\resources]
+[30Sep2024 20:25:45.674] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.2+13-LTS
+[30Sep2024 20:25:45.674] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.2 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[30Sep2024 20:25:45.921] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[30Sep2024 20:25:46.133] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/Debbie/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
+[30Sep2024 20:25:47.774] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[30Sep2024 20:25:50.004] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\Debbie\.gradle\caches\forge_gradle\assets, --assetIndex, 16, --mod, ziggymod, --all, --output, C:\Users\Debbie\.vscode\projectDirectory\ziggy\ziggy\src\generated\resources, --existing, C:\Users\Debbie\.vscode\projectDirectory\ziggy\ziggy\src\main\resources]
+[30Sep2024 20:26:01.217] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 50.1.0, for MC 1.20.6 with MCP 20240429.135109
+[30Sep2024 20:26:01.232] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v50.1.0 Initialized
+[30Sep2024 20:26:01.264] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[30Sep2024 20:26:03.129] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [ziggymod]
+[30Sep2024 20:26:03.279] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Debbie/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[30Sep2024 20:26:03.279] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Debbie/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[30Sep2024 20:26:03.609] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[30Sep2024 20:26:04.205] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 592 ms
+[30Sep2024 20:26:04.205] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[30Sep2024 20:26:04.268] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 55 ms
+[30Sep2024 20:26:04.268] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: ziggymod
+[30Sep2024 20:26:04.727] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: ziggymod finished after 459 ms
+[30Sep2024 20:26:04.727] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: ziggymod
+[30Sep2024 20:26:04.759] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: ziggymod finished after 27 ms
+[30Sep2024 20:26:04.759] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id ziggymod
+[30Sep2024 20:26:04.784] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id ziggymod finished after 28 ms
+[30Sep2024 20:26:04.784] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id ziggymod
+[30Sep2024 20:26:04.795] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id ziggymod finished after 6 ms
+[30Sep2024 20:26:04.796] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 1174 ms
+[30Sep2024 20:26:04.820] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 262, old count: 262, new count: 263, removed stale: 0, written: 2

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "ziggymod:block/tree_bark_plank",
+    "side": "ziggymod:block/tree_bark_plank",
+    "top": "ziggymod:block/tree_bark_plank"
+  }
+}

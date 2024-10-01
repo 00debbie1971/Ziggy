@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ziggymod:tree_bark_fence_gate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tree_bark_plank": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ziggymod:tree_bark_plank"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tree_bark_plank"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ziggymod:tree_bark_fence_gate"
+    ]
+  }
+}

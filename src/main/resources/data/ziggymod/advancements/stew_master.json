@@ -1,0 +1,40 @@
+{
+    "parent": "ziggymod:your_nuts",
+    "display": {
+      "icon": {
+            "id": "ziggymod:acorn_stew"
+      },
+      "title": {
+          "text": "Stew Master"
+      },
+      "description": {
+          "text": "Craft and obtain Acorn Stew."
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },   
+    "criteria": {
+      "get_acorn_stew": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["ziggymod:acorn_stew"]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 200,
+      "loot": [
+          "ziggymod:advancements/stew_master_adv"
+      ]
+    },
+    "requirements": [
+      ["get_acorn_stew"]
+    ]    
+  }
+  

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "ziggymod:block/pine_cone_plank",
+    "side": "ziggymod:block/pine_cone_plank",
+    "top": "ziggymod:block/pine_cone_plank"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ziggymod:block/tree_bark_slab"
+    },
+    "type=double": {
+      "model": "ziggymod:block/tree_bark_plank"
+    },
+    "type=top": {
+      "model": "ziggymod:block/tree_bark_slab_top"
+    }
+  }
+}

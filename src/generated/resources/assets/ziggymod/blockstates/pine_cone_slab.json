@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ziggymod:block/pine_cone_slab"
+    },
+    "type=double": {
+      "model": "ziggymod:block/pine_cone_plank"
+    },
+    "type=top": {
+      "model": "ziggymod:block/pine_cone_slab_top"
+    }
+  }
+}

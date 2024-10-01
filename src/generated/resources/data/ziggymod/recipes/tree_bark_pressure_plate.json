@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "ziggymod:tree_bark_plank"
+    }
+  },
+  "pattern": [
+    "TT"
+  ],
+  "result": {
+    "count": 6,
+    "id": "ziggymod:tree_bark_pressure_plate"
+  }
+}

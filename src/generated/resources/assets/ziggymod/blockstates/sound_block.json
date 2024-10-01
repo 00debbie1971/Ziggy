@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ziggymod:block/sound_block"
+    }
+  }
+}

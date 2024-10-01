@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_acorn_stew": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ziggymod:acorn_stew"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ziggymod:golden_acorn_stew"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_acorn_stew"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ziggymod:golden_acorn_stew"
+    ]
+  }
+}

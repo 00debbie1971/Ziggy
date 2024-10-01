@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "ziggymod:block/pine_cone_plank"
+  }
+}

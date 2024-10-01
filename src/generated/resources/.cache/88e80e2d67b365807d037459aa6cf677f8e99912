@@ -1,0 +1,11 @@
+// 1.20.6	2024-09-30T09:59:14.26319	Tags for minecraft:block mod id ziggymod
+8d3bc92a55be27942cc80150aa7e9df773db0a5c data/forge/tags/blocks/needs_netherite_tool.json
+dfd4384e772a9273667248f9af16a4d1e4a096ea data/minecraft/tags/blocks/fences.json
+372f3598d9637f7a2e9b2e464aeb75919e8e780a data/minecraft/tags/blocks/fence_gates.json
+ecd517c28624620e0362c01c7080425dc67e7ac5 data/minecraft/tags/blocks/mineable/axe.json
+60d2bdf17ab3efedbf371e7f48e596ce9e8d45e4 data/minecraft/tags/blocks/mineable/pickaxe.json
+29db98f8ded9f1fad0007aa4781fffa932db5668 data/minecraft/tags/blocks/needs_diamond_tool.json
+fde60f6231e5a7467dbe9b168571be833360af4c data/minecraft/tags/blocks/needs_iron_tool.json
+097b4fac17c01384023d136a416a80e051e64d33 data/minecraft/tags/blocks/needs_stone_tool.json
+73830efce291a0a6007103c5b4702390f7b41f42 data/minecraft/tags/blocks/walls.json
+9c9cbd11b22eccb3dcf0a3117ffc23e4ee6a6626 data/ziggymod/tags/blocks/metal_detector_valuables.json

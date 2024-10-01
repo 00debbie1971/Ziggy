@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ziggymod:acorn"
+    },
+    "B": {
+      "item": "ziggymod:tree_bark_bowl"
+    },
+    "F": {
+      "item": "minecraft:dandelion"
+    }
+  },
+  "pattern": [
+    " F ",
+    "AAA",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ziggymod:acorn_stew"
+  }
+}

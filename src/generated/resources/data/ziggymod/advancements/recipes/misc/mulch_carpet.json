@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ziggymod:mulch_carpet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tree_bark": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ziggymod:tree_bark"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tree_bark"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ziggymod:mulch_carpet"
+    ]
+  }
+}

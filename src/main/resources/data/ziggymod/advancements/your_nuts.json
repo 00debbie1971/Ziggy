@@ -1,0 +1,39 @@
+{
+    "parent": "ziggymod:root",
+    "display": {
+      "icon": {
+        "id": "ziggymod:acorn"
+      },
+      "title": {
+        "text": "Your Nuts!"
+      },
+      "description": {
+        "text": "Obtain and eat an acorn."
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "eat_acorn": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+              "items": ["ziggymod:acorn"]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "experience": 200,
+      "loot": [
+          "ziggymod:advancements/your_nuts_adv"
+      ]
+    },
+    
+      "requirements": [
+        [ "eat_acorn"]
+      ]  
+  }
+  

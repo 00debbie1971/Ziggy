@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  N",
+    " S ",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ziggymod:netherite_scythe"
+  }
+}

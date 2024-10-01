@@ -1,0 +1,41 @@
+{
+    "parent": "ziggymod:tier_two_bark",
+    "display": {
+        "icon": {
+            "id": "ziggymod:tree_bark"
+        },
+        "title": {
+            "text": "Bark Collector 2"
+        },
+        "description": {
+            "text": "Obtain a Full Inventory of Tree Bark"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_more_tree_bark": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["ziggymod:tree_bark"],
+                        "count": 2304
+                    }
+                ]
+            }
+
+        }
+    },
+    "rewards": {
+        "loot": [
+            "ziggymod:advancements/tier_three_bark_adv"
+        ],
+        "experience": 100
+    },
+    "requirements": [
+      ["get_more_tree_bark"]
+    ] 
+}

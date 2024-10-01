@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ziggymod:pine_cone_plank"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ziggymod:pine_cone_button"
+  }
+}

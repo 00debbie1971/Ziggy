@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "ziggymod:pine_cone_plank"
+    }
+  },
+  "pattern": [
+    "BB",
+    "BB",
+    "BB"
+  ],
+  "result": {
+    "count": 3,
+    "id": "ziggymod:pine_cone_door"
+  }
+}

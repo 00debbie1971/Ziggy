@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ziggymod:tree_bark_plank"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ziggymod:tree_bark_button"
+  }
+}
